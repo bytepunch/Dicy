@@ -23,17 +23,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Xyo-AK-BDQ">
-                                <rect key="frame" x="109" y="44" width="196.00000000000006" height="128"/>
+                                <rect key="frame" x="199" y="44" width="16" height="16"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="PfE-bN-HLp">
-                                <rect key="frame" x="40" y="250" width="120" height="120"/>
+                                <rect key="frame" x="40" y="138" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="2od-1a-XTr"/>
                                     <constraint firstAttribute="height" constant="120" id="89I-5J-B9j"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice5" translatesAutoresizingMaskIntoConstraints="NO" id="DUW-kx-scC">
-                                <rect key="frame" x="254" y="250" width="120" height="120"/>
+                                <rect key="frame" x="254" y="138" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="b64-3r-zis"/>
                                     <constraint firstAttribute="width" constant="120" id="dur-l6-eeA"/>
@@ -51,6 +51,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageView1" destination="PfE-bN-HLp" id="dnu-ld-n1H"/>
+                        <outlet property="diceImageView2" destination="DUW-kx-scC" id="Q1K-c6-Gom"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
